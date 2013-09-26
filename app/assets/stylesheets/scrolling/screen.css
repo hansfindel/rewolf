@@ -26,7 +26,7 @@ body.loading{
 #buffer{display:none;height:1px}
 .top-notice{background:#f7e442;border:2px solid #141213;font:1em "proxima-nova",sans-serif;margin-bottom:5px;padding:1em;text-align:center}img{max-width:100%}
 #universe{
-	background:black url(./images/stars-last.jpg) repeat center 0;
+	background:black url(/assets/images/stars-last.jpg) repeat center 0;
 	display:none
 }
 .container{margin:0 auto;max-width:960px;padding:0 5%;width:90%}
@@ -98,7 +98,7 @@ body.loading{
 	padding-top:20%;
 }
 .start{
-	background:black url(./images/stars-last.jpg) repeat center 0;
+	background:black url(/assets/images/stars-last.jpg) repeat center 0;
 	color:#a1a1a1;
 	display:table;
 	font-family:"ff-tisa-web-pro",serif;
@@ -150,7 +150,7 @@ body.loading{
 .multiplebgs .start{
 	background-attachment:scroll,fixed;
 	background-color:#000;
-	background-image:url(./images/space-lines.png),url(./images/stars-last.jpg);
+	background-image:url(/assets/images/space-lines.png),url(/assets/images/stars-last.jpg);
 	background-position:center 0,0 0;
 	background-repeat:no-repeat,repeat;
 	background-size:1356px 1041px,auto auto;
@@ -320,7 +320,7 @@ body.loading{
 .astronomy .vector2{left:40px;top:40px}
 .astronomy .vector3{left:81px;top:81px}
 .process{
-	background:transparent url(./images/ac_process_backer.jpg) repeat 0 0;
+	background:transparent url(/assets/images/ac_process_backer.jpg) repeat 0 0;
 	color:#131311;
 	height:auto;
 	padding:0!important;
@@ -374,12 +374,12 @@ body.loading{
 }
 .trig-prev:hover,.trig-next:hover{background-color:#f8e959}
 .trig-next{
-	background:#f6e540 url(./images/triangle-right.png) no-repeat 53% center;
+	background:#f6e540 url(/assets/images/triangle-right.png) no-repeat 53% center;
 	display:inline-block;
 	margin:0 10px;
 }
 .trig-prev{
-	background:#f6e540 url(./images/triangle-left.png) no-repeat 49% center;
+	background:#f6e540 url(/assets/images/triangle-left.png) no-repeat 49% center;
 	display:inline-block;
 	margin:0 10px;
 }
@@ -394,7 +394,7 @@ body.loading{
 	#process-start{padding-top:1.4%}
 }
 .process-step .content{
-	background:transparent url(./images/ac_process_backer.jpg) repeat 0 0;
+	background:transparent url(/assets/images/ac_process_backer.jpg) repeat 0 0;
 	max-width:754px;
 	padding-bottom:2em;
 	position:relative;
@@ -430,35 +430,35 @@ body.loading{
 }
 .process-menu a:hover,.process-menu a.current{opacity:1}
 .process-menu .step1{
-	background:transparent url(./images/annulus-1-active.png) no-repeat center 11px;
+	background:transparent url(/assets/images/annulus-1-active.png) no-repeat center 11px;
 	border-right:1px solid #ccbc05;
 }
 .process-menu .step2{
-	background:transparent url(./images/annulus-2-active.png) no-repeat center 11px;
+	background:transparent url(/assets/images/annulus-2-active.png) no-repeat center 11px;
 	border-right:1px solid #ccbc05;
 }
 .process-menu .step3{
-	background:transparent url(./images/annulus-3-active.png) no-repeat center 11px;
+	background:transparent url(/assets/images/annulus-3-active.png) no-repeat center 11px;
 	border-right:1px solid #ccbc05;
 }
 .process-menu .step4{
-	background:transparent url(./images/annulus-4-active.png) no-repeat center 11px;
+	background:transparent url(/assets/images/annulus-4-active.png) no-repeat center 11px;
 }
 .step-name{font:800 2.5em "proxima-nova",sans-serif;margin-bottom:.2em}
 #process-1{
-	background-image:url(./images/process-1-door.jpg);
+	background-image:url(/assets/images/process-1-door.jpg);
 	background-size:cover;
 }
 #process-2{
-	background-image:url(./images/process-2-wood.jpg);
+	background-image:url(/assets/images/process-2-wood.jpg);
 	background-size:cover;
 }
 #process-3{
-	background-image:url(./images/process-3-brick.jpg);
+	background-image:url(/assets/images/process-3-brick.jpg);
 	background-size:cover;
 }
 
-#process-4{background-image:url(./images/process-4-office.jpg);background-size:cover}
+#process-4{background-image:url(/assets/images/process-4-office.jpg);background-size:cover}
 #portfolio{background:white;text-align:center}
 #portfolio .container{padding:0 12px}
 .projects{*zoom:1;clear:both}
@@ -610,7 +610,7 @@ body.loading{
 	text-indent:100%;
 	white-space:nowrap;
 	overflow:hidden;
-	background:transparent url(./images/arrow-right@2x.png) no-repeat 0 0;
+	background:transparent url(/assets/images/arrow-right@2x.png) no-repeat 0 0;
 	background-size:cover;
 	display:block;
 	height:18px;
@@ -625,7 +625,7 @@ body.loading{
 	text-indent:100%;
 	white-space:nowrap;
 	overflow:hidden;
-	background:transparent url(./images/arrow-left@2x.png) no-repeat 0 0;
+	background:transparent url(/assets/images/arrow-left@2x.png) no-repeat 0 0;
 	background-size:cover;
 	display:block;
 	height:18px;
@@ -671,7 +671,7 @@ body.loading{
 	.text-content{font-size:1.7em}
 }
 .inspiration{
-	background:transparent url(./images/AC-spacebkgd-3.jpg) no-repeat 0 0;
+	background:transparent url(/assets/images/AC-spacebkgd-3.jpg) no-repeat 0 0;
 	color:#fff;
 	display:table;
 	font:36px/1em "alternate-gothic-no-1-d",sans-serif;
@@ -684,7 +684,7 @@ body.loading{
 	width:100%;
 }
 .multiplebgs .inspiration{
-	background-image:url(./images/white-ruler-guides.png),url(./images/white-ruler-guides-bottom.png),url(./images/AC-spacebkgd-3.jpg);
+	background-image:url(/assets/images/white-ruler-guides.png),url(/assets/images/white-ruler-guides-bottom.png),url(/assets/images/AC-spacebkgd-3.jpg);
 	background-position:0 0,0 bottom,center bottom;
 	background-repeat:repeat-x,repeat-x,no-repeat;
 	background-size:auto auto,auto auto,cover!important;
@@ -696,7 +696,7 @@ body.loading{
 }
 #portfolio{height:auto}
 .contact{
-	background:black url(./images/mars-surface-264k-3.png) no-repeat center bottom;
+	background:black url(/assets/images/mars-surface-264k-3.png) no-repeat center bottom;
 	color:#a2a2a2;
 	font:15px "ff-tisa-web-pro",serif;padding-bottom:0!important;
 }
@@ -713,7 +713,7 @@ body.loading{
 .multiplebgs .contact{
 	background-attachment:scroll,fixed;
 	background-color:#000;
-	background-image:url(./images/mars-surface-264k-3.png),url(./images/stars-last.jpg);
+	background-image:url(/assets/images/mars-surface-264k-3.png),url(/assets/images/stars-last.jpg);
 	background-position:center bottom,0 0;
 	background-repeat:no-repeat,repeat;
 	background-size:auto auto;
@@ -802,7 +802,7 @@ body.loading{
 .copyright br{display:none}
 .social-links{float:left;margin-bottom:20px;padding-top:10px}
 .social-links a{
-	background:transparent url(./images/sm-social-icons.png) no-repeat 0 0;
+	background:transparent url(/assets/images/sm-social-icons.png) no-repeat 0 0;
 	color:#fff;
 	display:inline-block;
 	text-indent:100%;
@@ -825,7 +825,7 @@ body.loading{
 	-moz-transition:all 1s;
 	-o-transition:all 1s;
 	transition:all 1s;
-	background:#222324 url(./images/ac-brand@2x.png) no-repeat center 47%;
+	background:#222324 url(/assets/images/ac-brand@2x.png) no-repeat center 47%;
 	bottom:0;
 	visibility:hidden;
 	height:100%;
@@ -916,12 +916,12 @@ body.loading{
 	width:57px;
 }
 .port-nav .prev-piece{
-	background:transparent url(./images/triangle-left-light-grey.png) no-repeat 16px center;
+	background:transparent url(/assets/images/triangle-left-light-grey.png) no-repeat 16px center;
 	padding-left:44px
 }
 .port-nav .prev-piece:hover{border-color:white;color:white}
 .port-nav .next-piece{
-	background:transparent url(./images/triangle-right-light-grey.png) no-repeat 76px center;
+	background:transparent url(/assets/images/triangle-right-light-grey.png) no-repeat 76px center;
 	padding-left:16px;width:85px;
 }
 .port-nav .next-piece:hover{border-color:white;color:white;}
@@ -1136,12 +1136,12 @@ body.loading{
 	#process-start{padding-top:1.1%}
 	#process-start p{font-size:26px}
 	.prev-piece{
-		background:transparent url(./images/triangle-left.png) no-repeat 5% center;
+		background:transparent url(/assets/images/triangle-left.png) no-repeat 5% center;
 		padding-left:7%;
 		width:39%
 	}
 	.next-piece{
-		background:transparent url(./images/triangle-right.png) no-repeat 95% center;
+		background:transparent url(/assets/images/triangle-right.png) no-repeat 95% center;
 		padding-right:7%;width:39%;
 	}
 	.piece .header h2{font-size:40px}
@@ -1165,7 +1165,7 @@ body.loading{
 	.start{height:auto;padding-bottom:25%}
 	.multiplebgs .start{
 		background-attachment:scroll,fixed;background-color:#000;
-		background-image:url(./images/astronomy-diagram-3.png),url(./images/stars-last.jpg);
+		background-image:url(/assets/images/astronomy-diagram-3.png),url(/assets/images/stars-last.jpg);
 		background-position:center 0,0 0;
 		background-repeat:no-repeat,repeat;
 		background-size:auto auto,auto auto;
